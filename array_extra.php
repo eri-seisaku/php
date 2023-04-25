@@ -26,4 +26,7 @@ $array_3 = [
     "key3" => 999,
 ];
 var_dump($array_3);
+
+// 配列を echo で出力する
+echo $array_3['key1'];
 ?>
