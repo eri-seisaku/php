@@ -24,4 +24,5 @@ $_SESSION['counter'] = $next_counter;
 
 // バッファリング終了と出力
 ob_end_flush();
+
 ?>
