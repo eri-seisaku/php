@@ -66,7 +66,7 @@ class User{
 }
 
 $user1 = new User();
-$user1->defaultName(); // メソッドを呼び出す
+$user1->defaultName(); // メソッド(太郎)を呼び出す
 // echo $user1->name; // publicなら出来るけどprivateではエラーになる
 $user1->setName('花子'); // プロパティの値を太郎->花子に変更
 echo $user1->getName(); // プロパティの値(花子)を呼び出す
